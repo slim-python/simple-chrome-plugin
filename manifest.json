@@ -1,0 +1,26 @@
+{
+    "name": "COOL CHROME PLUGIN",
+    "version": "1.0",
+    "description": "This Extention does XYZ",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+
+    },
+    "commands": {
+      "_execute_browser_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+F",
+          "mac": "MacCtrl+Shift+F"
+        },
+        "description": "Opens popup.html" 
+        // this says that when you'll click it will open popup.html
+      }
+    }
+  
+
+}
+
+
+
